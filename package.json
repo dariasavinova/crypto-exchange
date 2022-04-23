@@ -1,0 +1,23 @@
+{
+  "name": "crypto",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "npm run build && vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.2",
+    "vite-svg-loader": "^3.2.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
